@@ -159,6 +159,12 @@ class  RouterHelper
      * **/
     private function registerToTp5Router($params)
     {
+        /**
+         * cache route rules
+         * **/
+        if($this->isCacheOpen()){
+            $this->setCache($params);
+        }
         call_user_func_array(\Think\Route::class . "::rule", $params);
     }
 
