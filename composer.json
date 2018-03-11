@@ -12,7 +12,7 @@
   "require": {
     "php": ">5.6",
     "saberyjs/annotation": "^1",
-    "saberyjs/exception": "1",
+    "saberyjs/exception": "^1",
     "saberyjs/refl-helper": "^1"
   },
   "require-dev": {
