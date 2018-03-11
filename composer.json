@@ -1,0 +1,25 @@
+{
+    "name": "saberyjs/tp5-route-helper",
+    "description": "this library can helper to build tp5 route rule",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "saberyjs",
+            "email": "saberyjs@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">5.6"
+    },
+    "require-dev":{
+        "saberyjs/annotation":"^1",
+        "saberyjs/exception":"1",
+        "saberyjs/refl-helper":"1"
+    },
+    "autoload":{
+        "psr-4":{
+            "saberyjs\\tp_route_helper\\":"src/"
+        }
+    }
+}
