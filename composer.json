@@ -18,8 +18,8 @@
         "saberyjs/refl-helper":"1"
     },
     "autoload":{
-        "psr-4":{
-            "saberyjs\\tp_route_helper\\":"src/"
+        "psr-4": {
+          "saberyjs\\tp_route_helper\\": "src/"
         }
     }
 }
